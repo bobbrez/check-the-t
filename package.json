@@ -1,0 +1,35 @@
+{
+	name: "check-the-t",
+	version: "1.0.0",
+	description: "Alexa Skill to check the MBTA",
+	main: "index.js",
+	contributors: [
+		"Bob Breznak <bob.breznak@gmail.com>"
+	],
+	dependencies: {
+		aws - sdk: "^2.4.7",
+		i18next: "^3.4.1",
+		i18next - sprintf - postprocessor: "^0.2.2"
+	},
+	devDependencies: {},
+	scripts: {
+		test: "echo "
+		Error: no test specified " && exit 1"
+	},
+	repository: {
+		type: "git",
+		url: "git+https://github.com/bobbrez/check-the-t.git"
+	},
+	keywords: [
+		"Alexa",
+		"skill",
+		"MBTA",
+    "Boston"
+	],
+	author: "Bob Breznak",
+	license: "MIT",
+	bugs: {
+		url: "https://github.com/bobbrez/check-the-t/issues"
+	},
+	homepage: "https://github.com/bobbrez/check-the-t#readme"
+}
